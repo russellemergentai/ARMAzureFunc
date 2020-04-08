@@ -12,13 +12,14 @@ namespace LogFunctionApp
 {
     public static class LogFunction
     {
-        [FunctionName("Unzipthis")]
+        [FunctionName("LogFunc")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             // http://localhost:7071/api/LogFunction?logData=hi
             // https://logfunctionapp20200311020048.azurewebsites.net/api/LogFunction?logData=poo
+            // https://LogFuncrs.azurewebsites.net/api/LogFuncthis?logData=poo
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string logData = req.Query["logData"];
