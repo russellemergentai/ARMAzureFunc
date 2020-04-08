@@ -29,8 +29,8 @@ namespace LogFunctionApp
             logData = logData ?? data?.logData;
 
             string responseMessage = string.IsNullOrEmpty(logData)
-                ? "HTTP triggered function executed successfully. Pass a logData in the query string or in the request body for a personalized response."
-                : $"Log Data: {logData}. HTTP triggered logging OK.";
+                ? "HTTP VSCODE function executed successfully. Pass a logData in the query string or in the request body for a personalized response."
+                : $"Log Data: {logData}. HTTP VSCODE logging OK.";
 
             return new OkObjectResult(responseMessage);
         }
