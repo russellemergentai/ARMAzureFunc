@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzUnzipEverything", "AzUnzipEverything.csproj", "{2A403C74-28D3-4291-96B1-F26F1A0EA8E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARMAzureFunc", "ARMAzureFunc.csproj", "{2A403C74-28D3-4291-96B1-F26F1A0EA8E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
